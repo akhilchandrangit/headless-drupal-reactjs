@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width" name="viewport" />
+    <title>Headless Drupal Implementation - ReactJS and Drupal 8</title>
+    <link rel="shortcut icon" href="/src/assets/images/fav.png">
+    <!--Stylesheets-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link rel="stylesheet" href="/src/assets/css/styles.css">
+    <!--Scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    
+  </head>
+  <body>
+    <div id="root"></div>
+    <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="">About</h5>
+              <p>This website is created for testing Headless Drupal.
+                Drupal supports the backend and frontend is done using React</p>
+              <p>CSS used : Materialize, Font-awesome<br>
+              </p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="">Links</h5>
+              <ul>
+                <li><a class="" href="/">Home</a></li>
+                <li><a class="" href="/contact">Contact</a></li>
+                <li><a class="" href="/about">About</a></li>
+                <li><a class="" href="/terms">Terms</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+            <span style="color: #B0B0B0">
+              © None 
+            </span>
+          </div>
+        </div>
+      </footer>
+    <script src="/bundle.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.slider').slider();
+      });
+    </script>
+  </body>
+</html>
